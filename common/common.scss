@@ -1,6 +1,10 @@
 /* MIGHT CONFLICT WITH: Topic Cards, Topic Thumbnails, Topic List Previews */
 /* TOPIC LIST LAYOUTS TOGGLE SWITCHER - as of 2025-03-02 */
 
+.topic-list .num .badge-posts {
+    padding: 0;
+}
+
 /* START Fix when used with Density Toggle TC */
 .f-d-compact.navigation-topics.topic-list-layout-table-excerpts .main-link.topic-list-data {
     flex-direction: column !important;
@@ -138,5 +142,6 @@ display: none !important;
         "replies posters posters" !important;
     grid-template-columns: auto 1fr auto !important;
 }
+
 
 
