@@ -29,19 +29,19 @@ body.topic-list-layout-cards {
     z-index: 2;
     background: var(--secondary);
     margin-top: -1em;
-  }
-
-    /* Override Density Toggle hiding these */
-    .f-d-compact .topic-list .topic-list-data.views,
-    .f-d-compact .topic-list .topic-list-data.posts,
-    .f-d-compact .topic-list .topic-list-data.posters {
-        display: inline-block;
-    }
-    
+  } 
 }
 
 body[class*="topic-list-layout-"] {
   .topic-list[data-layout="cards"] {
+
+/* Override Density Toggle hiding */
+.f-d-compact .topic-list .topic-list-data.views,
+.f-d-compact .topic-list .topic-list-data.posts,
+.f-d-compact .topic-list .topic-list-data.posters {
+    display: inline-block;
+}
+      
     thead {
       display: none;
     }
