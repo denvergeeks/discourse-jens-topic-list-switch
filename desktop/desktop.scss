@@ -130,7 +130,7 @@ body[class*="topic-list-layout-"] {
       td,
       .posts-map,
       .num.activity a,
-      .posters,
+      /* .posters, */
       .age {
         // resets
         margin-top: auto;
@@ -169,6 +169,7 @@ body[class*="topic-list-layout-"] {
 
       .posters {
         grid-area: posters;
+        margin-top: auto;
       }
 
       .posters img.avatar {
