@@ -9,6 +9,9 @@ media="(min-width: 40rem)" {
 }
 */
 
+/* f-d-compact navigation-topics topic-list-layout-cards */
+
+
 body.topic-list-layout-cards {
   .top-lists,
   .topic-list-bottom {
@@ -39,7 +42,7 @@ body[class*="topic-list-layout-"] {
 .f-d-compact .topic-list .topic-list-data.views,
 .f-d-compact .topic-list .topic-list-data.posts,
 .f-d-compact .topic-list .topic-list-data.posters {
-    display: inline-block;
+    display: inline-block !important;
 }
       
     thead {
