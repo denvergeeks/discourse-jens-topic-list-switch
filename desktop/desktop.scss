@@ -21,7 +21,11 @@ media="(min-width: 40rem)" {
 
 
 /* START Override Density Toggle Items */
-/* .f-d-compact .topic-list .topic-list-data.views, */
+
+body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.views,
+body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .topic-list-data.posts {
+    display: revert;
+}
 
 body.f-d-compact.navigation-topics.topic-list-layout-table .topic-list .link-bottom-line {
     margin-top: 0 !important;
@@ -49,6 +53,7 @@ body.navigation-topics.topic-list-layout-cards.f-d-cozy .topic-list .topic-list-
 body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .topic-list-data {
     padding-left: 0 !important;
 }
+
 
 /* END Override Density Toggle Items */
 
