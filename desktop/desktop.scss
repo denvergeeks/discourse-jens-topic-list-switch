@@ -184,6 +184,7 @@ body[class*="topic-list-layout-"] {
         grid-area: date;
         justify-self: end;
         font-size: var(--font-down-1);
+        line-height: 1;
       }
 
       .excerpt {
