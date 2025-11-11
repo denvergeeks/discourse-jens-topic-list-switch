@@ -20,7 +20,7 @@ media="(min-width: 40rem)" {
 
 
 
-/* Override Density Toggle hiding */
+/* Override Density Toggle Items */
 /* .f-d-compact .topic-list .topic-list-data.views, */
 body.f-d-compact.navigation-topics.topic-list-layout-cards .topic-list .topic-list-data.posts,
 body.f-d-compact.navigation-topics.topic-list-layout-cards .topic-list .topic-list-data.posters {
@@ -42,6 +42,10 @@ body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .badge-ca
     margin-left: 0;
 }
 
+body.navigation-topics.topic-list-layout-cards.f-d-cozy .topic-list .topic-list-data,
+body.navigation-topics.topic-list-layout-cards.f-d-compact .topic-list .topic-list-data {
+    padding-left: 0 !important;
+}
 
 
 body.topic-list-layout-cards {
